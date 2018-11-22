@@ -20,7 +20,7 @@ var ticket = {
   customData : '',
   cookiePath : '/'
 }
-
+```
 
 ## Example
 
@@ -38,5 +38,5 @@ var encryptor = require("./encryptor") (vk , dk);
 // generate encrypted cookie buffer
 var tkb = encryptor.encrypt({expirationDate : ed, name : name});
 var tiket = tkb.toString("hex");
-
+```
 
